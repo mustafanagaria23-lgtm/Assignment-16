@@ -111,3 +111,23 @@ console.log("=======================");
 // =============================
 // Section E: Thinking Questions
 // =============================
+
+var count = 0;
+for (var i = 1; i <= 50 ; i++) {
+    if ( i % 2 === 0) {
+        count += 1
+    }
+}
+console.log(count);
+
+console.log("-----");
+
+var count = 0
+for (var i = 1; i <= 100 ; i++) {
+    if ( i % 3 === 0) {
+        count += 1
+    }
+}
+console.log(count);
+
+console.log("=======================");
